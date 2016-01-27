@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Location</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/superhero/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style rel="stylesheet" type="text/css" href="css/styles.css"></style>
+</head>
+<body>
+
+    <div class = "navbar navbar-inverse navbar-static-top">
+        <div class = "container">
+        
+            <a href = "#" class = "navbar-brand">BURGER KING</a>
+            
+            <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+
+            </button>
+            
+            <div class = "collapse navbar-collapse navHeaderCollapse">
+                
+                <ul class = "nav navbar-nav navbar-right">
+                
+                    <li ><a href = "restrant.html"><i class="fa fa-home"></i>  Home</a></li>
+                    <li><a href = "carousel.html"><i class="fa fa-picture-o"> </i>  Carousel</a></li>
+                    <li><a href = "menu.html"><i class="fa fa-cutlery"> </i> Menu</a></li>
+                    <li class = "active"><a href = "location.html"></i><i class="fa fa-map-marker"></i></a></li>
+                    <li><a href = "#contact" data-toggle= "modal"><i class="fa fa-inbox"></i>Contact Us</a></li>
+                    <li class = "dropdown">
+                        
+                   
+                </ul>
+            </div>
+            
+        </div>    
+    </div>
+    
+    <div class = "container" align = "center">
+                    <img src = "img/bkmap.png" width = "600px" height = "600px">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48613.91355181876!2d-74.53916485066132!3d40.40066236316556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3dd33e08bbae7%3A0x2fb3f2d26a919a1b!2sBurger+King!5e0!3m2!1sen!2sus!4v1453473378379" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <br>
+                    <br>
+                    <br>
+    </div>
+    
+
+    <div class = "navbar navbar-default navbar-fixed-bottom">
+        
+        <div class = "container">
+            <div class = "container">
+            <p class = "navbar-text pull-left">Site Built By Aashay Amin</p>
+            <a target="_blank" href = "https://www.youtube.com/user/bk" class = "navbar-btn btn-danger btn pull-right">Subscribe on Youtube</a>
+            <a target="_blank" href = "https://www.facebook.com/burgerking/" class = "navbar-btn btn-primary btn pull-right">Like us on Facebook </a>
+            <a target="_blank" href = "https://twitter.com/BurgerKing?lang=en" class = "navbar-btn btn-info btn pull-right">Like us on Twitter</a>
+            <a target="_blank" href = "https://www.instagram.com/burgerking/" class = "navbar-btn btn-warning btn pull-right"> Like us on Instagram </a>
+        
+    </div>
+    
+    <div class = "modal fade" id = "contact" role= "dialog">
+        <div class = "modal-dialog">
+            <div class = "modal-content">
+                <form class = "form-horizantal">
+                    <div class = "modal-header">
+                        <h4>Contact Me</h4>
+                    </div>
+                    <div class = "modal-body">
+                    
+                        <div class = "form-group">
+                            
+                            <label for = "contact-name" class = "col-lg-2 control-label">Name</label>
+                            <div class = "col-lg-10">
+                                
+                                <input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+                                
+                            </div>
+                            
+                            <div class = "form-group">
+                            
+                            <label for = "contact-email" class = "col-lg-2 control-label">Email</label>
+                            <div class = "col-lg-10">
+                                
+                                <input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+                                
+                            </div>
+                            
+                            <div class = "form-group">
+                            
+                            <label for = "contact-msg" class = "col-lg-2 control-label">Message</label>
+                            <div class = "col-lg-10">
+                                
+                                <textarea class = "form-control" rows = "8"></textarea>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    
+                    </div>
+                    <div class = "modal-footer">
+                        <a class = "btn btn-default" data-dismiss = "modal">Close</a>
+                        <button class = "btn btn-primary" type "submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+        
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
